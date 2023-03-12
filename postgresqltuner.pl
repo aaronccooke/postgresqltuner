@@ -101,7 +101,7 @@ GetOptions (
 	"ssd"         => \$ssd,
 	"nocolor"     => \$nocolor,
 	"skip-ssh"    => \$skip_ssh,
-	"memory"      => \$memory,
+	"memory=i"      => \$memory,
 	#todo: option --dedicated, refined as a percentage (100:full dedicated, 50: half...).  Refinement: dedication per resource (storage, RAM, CPU...)
 	#todo: option --interactive
 	) or usage(1);
